@@ -60,7 +60,7 @@ Each program solves a specific problem using **JavaScript & TypeScript**.
 # ⚠️ **Issue Encountered**  
 
 ## 🛑 **The Unexpected Output Problem**  
-When I was coding for Case 2: Diameter, Keliling dan Luas Lingkaran, I encountered an issue when returning the output as shown below::  
+When I was coding for Case 2: Diameter, Keliling dan Luas Lingkaran, I encountered an issue when returning the output as shown below:  
 
 ```js
 function circleProperties(radius) {
@@ -88,8 +88,6 @@ This is because JavaScript treats objects as more than just data holders—they 
 To avoid this, instead of returning an object, i log each value separately like this:
 
 ```js
-Copy
-Edit
 function circleProperties(radius) {
     let diameter = 2 * radius;
     let circumference = 2 * Math.PI * radius;
@@ -111,25 +109,20 @@ Area: 78.539
 ```
 No more unexpected prototype scraps! 🎉
 
-🛠 How to Run the Code
+## 🛠 **How to Run the Code**
 
 ▶️ JavaScript
-Open script.js in a terminal
+Open Javascript.js in a terminal
 Run:
 ```sh
-node script.js
+node Javascript.js
 ```
 ▶️ TypeScript
 Compile:
 ```sh
-tsc script.ts
+tsc Typescript.ts
 ```
 Run the generated JavaScript file:
 ```sh
-node script.js
+node Typescript.js
 ```
-🎯 Conclusion
-JavaScript is flexible but can introduce prototype issues when logging objects.
-TypeScript enforces type safety and prevents unexpected issues.
-For cleaner output, avoid returning objects and log values separately.
-Choose JavaScript for quick scripts, and TypeScript for larger, safer projects! 🚀
